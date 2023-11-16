@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+/* *{
+  background-color: blue;
+} */
+
+.App{
+  display: flex;
+  flex-direction: column;
+}
+
+.Header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(4, 59, 147);
+  height: 15vh;
+}
+
+.Header img{
+  width: 20vw;
+  height: 28vh;
+  padding: 4vh;
+  margin-top: 6vh;
+}
+
+.buttons{
+  display: flex;
+  padding-right: 1vw;
+}
+
+.head-button{
+  background-color: white;
+  border-radius: 6px;
+  border: 0px;
+  color: rgb(25, 3, 185);
+  font-weight: 600;
+  height: 6vh;
+  width: 6vw;
+  margin: 20px;
+  font-size: 15px;
+}
+
+.head-button:hover{
+  cursor: pointer;
+}
+
+.cust-button img{
+  height: 12vh;
+  width: 5.7vw;
+  /* margin-left: 50vw; */
+  /* margin-bottom: 5.5vh; */
+  border-radius: 50%;
+}
+
+.Naavbarrr{
+  background-color: rgb(4, 59, 147);
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Naavbarrr a{
+  text-decoration: none;
+  color: white;
+  margin: 0px 45px;
+  font-size: 3vh;
+}
+
+.Mainn{
+  display: flex;
+  flex-direction: column;
+}
+
+.Main-1{
+  display: flex;
+  background-image: url('./components/wallpaper.jpg');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 78.3vh;
+  width: 98.9vw;
+  /* background-color: red; */
+}
+
+.Main-1 h1{
+  font-family: 'Quintessential', serif;
+  color: rgb(73, 73, 245);
+  margin-left: 3vw;
+  font-size: 50px;
+  margin-top: 3vh;
+  font-weight: normal;
+}
+
+/* .bg-img{
+  height: 60vh;
+  width: 100vw;
+  box-sizing: content-box;
+} */
+
+.Main--2_custom,.Main-6{
+  padding-top: 2vh;
+  padding-left: 5vw;
+  padding-bottom: 20px;
+  background-color: #EFEFEF;
+}
+
+.Main-3,.Main-5{
+  /* margin: 0;
+  padding: 0; */
+  /* box-sizing: border-box; */
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #EFEFEF;
+}
+
+/* body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #EFEFEF;
+} */
+
+/* .slide-container{
+  max-width: 1420px;
+  width: 100%;
+  background-color: grey;
+  padding: 40px 0px;
+} */
+.slide-container {
+  width: 90vw; /* Adjust as needed */
+  /* padding-right: 100px; */
+  /* padding: 40px 0px; */
+  /* margin: 10px auto; */
+}
+
+/* .slide-content{
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+} */
+
+/* .card{
+  border-radius: 25px;
+  background-color: rgba(30, 47, 96, 0.841);
+  color: #efefef;
+  font-size: 11px;
+  display: flex;
+  flex-direction: row;
+  background-color: #FFF;
+  width: 22vw;
+} */
+.card {
+  border-radius: 25px;
+  background-color: rgb(4, 59, 147);
+  color: #efefef;
+  font-size: 11px;
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+  max-width: 27vw;
+  margin-left: 20px ;
+}
+
+.card .card-image h2{
+  text-align: center;
+  padding: 10px;
+}
+
+/* .card-image{
+  position: relative;
+  height: 40vh;
+  width: contain;
+  /* background-color: #FFF; */
+  /* border-radius: 50%; */
+  /* padding: 3px; */
+/* } */
+.card-image {
+  /* position: relative; */
+  height: 50vh;
+  /* width: 100%; */
+  /* border-radius: 25px; */
+  overflow: hidden;
+}
+
+
+.card-image .card-img{
+  padding: 0;
+  height: 80%;
+  width: 100%;
+  /* display: flex; */
+  border-radius: 25px 25px 0px 0px;
+}
+
+.Main-4{
+  padding-top: 7vh;
+  padding-left: 5vw;
+  background-color: #EFEFEF;
+}
+
+.card-ex{
+  background-color: rgb(188, 190, 191);
+  color: black;
+  font-size: 13px;
+  height: 40vh;
+  max-width: 20vw;
+  margin-left: 20px ;
+}
+
+.card-ex .card-image-ex h2{
+  text-align: center;
+}
+
+.card-image-ex{
+  height: 40vh;
+}
+
+.card-img-ex{
+  padding: 0;
+  height: 80%;
+  width: 100%;
+}
+
+.Main-7{
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #EFEFEF;
+  padding-bottom: 10vh;
+}
+
+.card-disc{
+  background-color: rgb(4, 59, 147);
+  color: white;
+  font-size: 15px;
+  height: 75vh;
+  max-width: 27vw;
+  margin-left: 20px ;
+}
+
+.card-image-disc{
+  height: 84vh;
+}
+
+.card-image-disc a{
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  font-size: 16.5px;
+  padding-top: 15px;
+}
+
+.slick-list button{
+  background-color: blue;
+}
+
+.Footer{
+  background-color: rgb(4, 59, 147);
+  height: 20vh;
+}
+
+.icon{
+  color: rgb(4, 59, 147);;
+}
